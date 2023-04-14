@@ -1,0 +1,36 @@
+.el-menu {
+  background-color: transparent;
+  border-color: transparent;
+  .el-menu-item {
+    &:hover {
+      color: #3E7BFA;
+      background-color: transparent;
+    }
+  }
+  .el-sub-menu {
+    .el-sub-menu__title {
+      height: 42px;
+      line-height: 42px;
+      &:hover {
+        color: #3E7BFA;
+        background-color: transparent;
+      }
+    }
+    .el-menu-item-group {
+      color: red;
+      .el-menu-item-group__title {
+        padding: 0;
+      }
+      .el-menu-item {
+        padding-left: 52px;
+        font-size: 12px;
+        height: 42px;
+        line-height: 42px;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
